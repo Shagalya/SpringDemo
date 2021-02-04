@@ -1,0 +1,29 @@
+package com.capgemini.service;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.capgemini.beans.Employee;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	List<Employee> emps = new ArrayList<>(Arrays.asList(
+			new Employee("101","Shagalya","Software",90000),
+			new Employee("102","ABC","Consultant",50000),
+			new Employee("103","DEF","Software",60000)
+			));
+	
+	public List<Employee> getEmployees(){
+		return emps;
+	}
+	
+	public Employee addEmployee(Employee emp) {
+		emps.add(emp);
+		return emp;
+	}
+
+}

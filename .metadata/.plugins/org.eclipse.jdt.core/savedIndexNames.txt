@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\STS\Rough1\.metadata\.plugins\org.eclipse.jdt.core
+3435648363.index
+1813643535.index
+3751091582.index

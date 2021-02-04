@@ -1,0 +1,13 @@
+package com.capgemini.service;
+
+import java.util.List;
+
+public class EmployeeService {
+	
+	List<> emps = new ArrayList<>(Arrays.asList(
+			new Employee("101","Shagalya","Software",90000),
+			new Employee("102","ABC","Consultant",50000),
+			new Employee("103","DEF","Software",60000)
+			));
+
+}
